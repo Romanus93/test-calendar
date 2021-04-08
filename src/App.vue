@@ -1,7 +1,11 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/momentjs">MomentJs</router-link> |
+    <router-link to="/basicCalendar">BasicCalendar</router-link> |
+    <router-link to="/calendar">Calendar</router-link> |
+    <router-link to="/exCalendar">ExCalendar</router-link> |
   </div>
   <router-view />
 </template>
